@@ -21,7 +21,7 @@ const PaymentDetails = () => {
     bankName: "Bank Central Asia",
     accountNumber: "1234567890",
     accountHolder: "PT Hotel Metro",
-    amount: "Rp. 1000.000" // This should be dynamically calculated based on the room and duration
+    amount: "Rp. 1.000.000" // This should be dynamically calculated based on the room and duration
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -56,7 +56,7 @@ const PaymentDetails = () => {
                 <p><span className="font-semibold">Bank Name:</span> {bankDetails.bankName}</p>
                 <p><span className="font-semibold">Account Number:</span> {bankDetails.accountNumber}</p>
                 <p><span className="font-semibold">Account Holder:</span> {bankDetails.accountHolder}</p>
-                <p><span className="font-semibold">Amount to Transfer:</span> ${bankDetails.amount}</p>
+                <p><span className="font-semibold">Amount to Transfer:</span> {bankDetails.amount}</p>
               </div>
             </div>
 

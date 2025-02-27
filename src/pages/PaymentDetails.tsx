@@ -20,8 +20,8 @@ const PaymentDetails = () => {
   const bankDetails = {
     bankName: "Bank Central Asia",
     accountNumber: "1234567890",
-    accountHolder: "PT Tranquil Inn",
-    amount: "299.00" // This should be dynamically calculated based on the room and duration
+    accountHolder: "PT Hotel Metro",
+    amount: "Rp. 1000.000" // This should be dynamically calculated based on the room and duration
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
